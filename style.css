@@ -1,0 +1,615 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.containerBox{
+    width: 100%;
+    height: 860px;
+    background:  linear-gradient(216.04deg, #27C0EF 50.84%, #00A8DB 83.53%);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;
+}
+.logo{
+    margin-top: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    /* margin-left: -2rem; */
+}
+.navy{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navy li{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-right: 1.5rem;
+    cursor: pointer;
+}
+
+.field{
+    margin-left: 1.5rem;
+    margin-top: -1.2rem;
+}
+
+.field button{
+    width: 130px;
+    height: 45px;
+    background: #005490;
+    border-radius: 8px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tom {
+    margin-right: -5rem;
+    margin-bottom: 5rem;
+}
+
+.text {
+    padding-top: 8rem;
+}
+
+.text h2 {
+    height: 230px;
+    width: 530px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+text img{
+    margin-top: -1rem;
+    width: 28%;
+}
+
+.text p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    height: 78px;
+    width: 73%;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+    }
+
+ .btn1 {
+        width: 197px;
+        height: 57px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        border-color: transparent;
+        color: #00A8DB;
+        cursor: pointer;
+        }
+
+ .btn1:hover {
+        background: #00A8DB;
+        color: white;
+            }
+
+.btn2 {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 180px;
+        height: 50px;
+        border-style: none;
+        background: none;
+        cursor: pointer;
+ }
+
+.Section2{
+    margin-top: 8rem;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section3{
+    width: 90%;
+    margin: auto;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+.pic{
+    display: flex;
+    justify-content: right;
+}
+
+.curv img{
+    margin-top: 4rem;
+}
+
+.pho img{
+    margin-left: -40rem;
+}
+
+.imp{
+    margin-left: 5rem;
+}
+
+.imp h2{
+    width: 390px;
+    height: 104px;
+    font-family: 'DM Sans';
+    Font-style: Bold;
+    font-size: 36px;
+    line-height: 52px;
+    Letter-spacing: 0.3px;
+    color: #034D82;
+    margin-top: 8rem;
+}
+
+.imp p{
+    Width: 485px;
+    height: 96px;
+    Font-family: 'DM Sans';
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 32px;
+    line-height: 154%;
+    vertical-align: Top;
+    Letter-spacing: 0.3px;
+    color: #90A3B4;
+    margin-top: 2rem;
+}
+
+.btn3 button{
+    width: 151px;
+    height: 21px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'DM Sans';
+    font-style: bold;
+    font-size: 16px;
+    line-height: 21px;
+    border-color: transparent;
+    color: #00A8DB;
+    cursor: pointer;
+}
+
+.section4{
+    width: 85%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.sch h2{
+    width: 446px;
+    height: 104px;
+    Font-family: 'DM Sans';
+    Font-style: Bold;
+    Font-size: 36px;
+    Line-height: 52px;
+    Letter-spacing: 0.3px;
+    color: #034D82;
+}
+
+.sch p{
+    width: 485px;
+    height: 64px;
+    Font-family: 'DM Sans';
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 32px;
+    Letter-spacing: 0.3px;
+    color: #90A3B4;
+    margin-top: 1rem;
+}
+
+.best1{
+    display: flex;
+}
+.best1 p{
+    Width: 134px;
+    height: 21px;
+    Font-family: 'DM Sans';
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 21px;
+    Letter-spacing: 0.3px;
+    color: #90A3B4;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+.best1 img{
+    margin-top: 1.5rem;
+}
+
+.btn4 button{
+    width: 218px;
+    height: 21px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'DM Sans';
+    font-style: bold;
+    font-size: 16px;
+    line-height: 21px;
+    border-color: transparent;
+    color: #00A8DB;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -0.5rem;
+}
+
+.macbookk img{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.section5{
+    background: #EFFBFF;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.Track h2{
+    Font-family: 'DM Sans';
+    Font-style: Bold;
+    Font-size: 36px;
+    Line-height: 52px;
+    Letter-spacing: 0.3px;
+    color: #034D82;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.Track p{
+    Font-family: 'DM Sans';
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 28px;
+    Letter-spacing: 0.3px;
+    color: #8EA9C1;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.Track2{
+    margin-top: 4rem;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    width: 280px;
+    height: 310px;
+    padding: 40px;
+    gap: 30px; 
+    border: none;
+}
+
+.Track2 h4{
+    Font-family: 'DM Sans';
+    Font-style: Bold;
+    Font-size: 20px;
+    Line-height: 32px;
+    Line-height: 123%;
+    Letter-spacing: 0.2px;
+    color: #034D82;
+    margin-top: 2rem;
+}
+
+.Track2 p{
+    Font-family: 'DM Sans';
+    Font-style: Regular;
+    Font-size: 15px;
+    Line-height: 24px;
+    Line-height: 123%;
+    Letter-spacing: 0.8px;
+    color: #8EA9C1;
+    margin-top: 1.5rem;
+}
+
+.Track1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section6{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.power h2{
+    width: 463px;
+    height: 156px;
+    Font-family: 'DM Sans';
+    Font-style: Bold;
+    Font-size: 36px;
+    Line-height: 52px;
+    Letter-spacing: 0.3px;
+    color: #034D82;
+}
+
+.power p{
+    width: 421px;
+    height: 36px;
+    Font-family: 'DM Sans';
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 32px;
+    Letter-spacing: 0.3px;
+    color: #90A3B4;
+}
+
+
+.jaq p{
+    width: 442px;
+    height: 96px;
+    Font-family: 'DM Sans';
+    Font-style: Italic;
+    Font-size: 16px;
+    Line-height: 32px;
+    color: #90A3B4;
+    margin-left: 7rem;
+}
+
+.jaq img{
+    margin-left: 2rem;
+}
+
+.dam1 button{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px; 
+    background: #FFFFFF;
+    border-color: transparent;
+    color: #00A8DB;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: -2rem;
+}
+
+.da1 h4{
+    width: 121px;
+    height: 24px;
+    Font-family: 'DM Sans';
+    Font-style: Bold;
+    Font-size: 20px;
+    Line-height: 24px;
+    Letter-spacing: 0.2px;
+    color: #034D82;
+    margin-left: 2rem;
+}
+
+.da1 span{
+    width: 286px;
+    height: 28px;
+    Font-family: 'DM Sans';
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 28px;
+    color: #90A3B4;
+    margin-left: 2rem;
+    margin-right: 10rem;
+}
+
+.dam2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    padding-left: 5rem;
+}
+
+.dam{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.dam1:hover button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #034D82;
+    color: #FFFFFF; 
+}
+
+.dot{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.section7{
+    background-image: url(./images/backk.png);
+    width: 75%;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.oon{
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sectn h2{
+    width: 355px;
+    height: 132px;
+    Font-family: 'DM Sans';
+    Font-style: Bold;
+    Font-size: 36px;
+    Line-height: 44px;
+    Letter-spacing: 0.3px;
+    color: #FFFFFF;
+    padding-top: 3rem;
+}
+
+.sectn p{
+    Font-family: 'DM Sans';
+    Font-style: Medium;
+    Font-size: 14px;
+    Line-height: 32px;
+    Letter-spacing: 0.3px;
+    color: #FFFFFF;
+    margin-top: 5rem;
+}
+
+.prop{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.prop p{
+    Font-family: 'DM Sans';
+    Font-style: Medium;
+    Font-size: 14px;
+    Line-height: 32px;
+    Letter-spacing: 0.3px;
+    color: #FFFFFF;
+    margin-left: 2rem;
+}
+
+.bbt button{
+    width: 197px;
+    height: 57px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    border-color: transparent;
+    color: #00A8DB;
+    cursor: pointer;
+    margin-top: 10rem;
+}
+
+.section8{
+    background-image: url(./images/baack.png);
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.eya img{
+    margin-top: 2rem; 
+    margin-bottom: 3rem;
+}
+.eya{
+    margin-top: 4rem;
+}
+
+.eya p{
+    width: 263px;
+    height: 54px;
+    Font-family: 'DM Sans';
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 28px;
+    color: #D3D6D8;
+}
+
+.you h3{
+    Font-family: 'DM Sans';
+    Font-style: Bold;
+    Font-size: 18px;
+    Line-height: 23px;
+    color: #D3D6D8;
+}
+
+.you p{
+    Font-family: 'DM Sans';
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 21px;
+    margin-top: 2rem;
+    color: #D3D6D8;
+    padding-right: 5rem;
+}
+.eya2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+}
+
+.secttt{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+.harrt p{
+    Font-family: 'DM Sans';
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 21px;
+    color: #D3D6D8;
+    text-align: center;
+}
+
+.harrt img{
+    padding-left: 43rem;
+}
+.harrt{
+   padding-bottom: 3rem;
+}
