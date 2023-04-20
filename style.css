@@ -595,7 +595,7 @@ text img{
 .secttt{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 .harrt p{
@@ -611,5 +611,5 @@ text img{
     padding-left: 43rem;
 }
 .harrt{
-   padding-bottom: 3rem;
+   padding-bottom: 4rem;
 }
