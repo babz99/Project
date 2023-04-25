@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -12,7 +13,7 @@ body{
 .containerBox{
     width: 100%;
     height: 860px;
-    background:  linear-gradient(216.04deg, #27C0EF 50.84%, #00A8DB 83.53%);
+    background: url(./images/bak1.svg);
     background-repeat: repeat;
     background-size: cover;
 }
@@ -77,12 +78,19 @@ header{
 
 .hero{
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .tom {
-    margin-right: -5rem;
+    margin-left: -6rem;
     margin-bottom: 5rem;
+    width: 100%;
+    margin-right: 4rem;
+}
+
+.tom>img{
+    width: 120%;
+    margin-top: 2rem;
 }
 
 .text {
@@ -91,7 +99,7 @@ header{
 
 .text h2 {
     height: 230px;
-    width: 530px;
+    width: 655px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -100,8 +108,8 @@ header{
     color: #FFFFFF;
 }
 
-text img{
-    margin-top: -1rem;
+.text>img{
+    margin-top: -7rem;
     width: 28%;
 }
 
@@ -113,8 +121,8 @@ text img{
     line-height: 26px;
     color: #FFFFFF;
     height: 78px;
-    width: 73%;
-    padding-top: 2rem;
+    width: 68%;
+    padding-top: 1rem;
     margin-bottom: 5rem;
     }
 
@@ -135,7 +143,7 @@ text img{
         }
 
  .btn1:hover {
-        background: #00A8DB;
+        background: #328BCB;
         color: white;
             }
 
@@ -152,6 +160,7 @@ text img{
         border-style: none;
         background: none;
         cursor: pointer;
+        margin-left: 2rem;
  }
 
 .Section2{
@@ -216,7 +225,7 @@ text img{
 }
 
 .btn3 button{
-    width: 151px;
+    width: 165px;
     height: 21px;
     background: #FFFFFF;
     border-radius: 4px;
@@ -264,7 +273,7 @@ text img{
     display: flex;
 }
 .best1 p{
-    Width: 134px;
+    Width: 139px;
     height: 21px;
     Font-family: 'DM Sans';
     Font-style: Regular;
@@ -280,7 +289,7 @@ text img{
 }
 
 .btn4 button{
-    width: 218px;
+    width: 240px;
     height: 21px;
     background: #FFFFFF;
     border-radius: 4px;
@@ -330,7 +339,7 @@ text img{
 
 
 .Track2{
-    margin-top: 4rem;
+    margin-top: 3rem;
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
     border-radius: 10px;
@@ -349,7 +358,7 @@ text img{
     Line-height: 123%;
     Letter-spacing: 0.2px;
     color: #034D82;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
 }
 
 .Track2 p{
@@ -360,7 +369,7 @@ text img{
     Line-height: 123%;
     Letter-spacing: 0.8px;
     color: #8EA9C1;
-    margin-top: 1.5rem;
+    margin-top: 1.4rem;
 }
 
 .Track1{
@@ -612,4 +621,8 @@ text img{
 }
 .harrt{
    padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 1024px){
+
 }
