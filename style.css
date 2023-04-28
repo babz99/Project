@@ -145,7 +145,8 @@ header{
  .btn1:hover {
         background: #328BCB;
         color: white;
-            }
+      }
+      
 
 .btn2 {
         font-family: 'DM Sans';
@@ -371,6 +372,18 @@ header{
     color: #8EA9C1;
     margin-top: 1.4rem;
 }
+
+.Track2:hover {
+    width: 280px;
+    height: 310px;
+    background: #EFFBFF;
+     border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.4s;
+    color: #DEDEDE;
+  }
 
 .Track1{
     display: flex;
