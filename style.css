@@ -146,7 +146,7 @@ header{
         background: #328BCB;
         color: white;
       }
-      
+
 
 .btn2 {
         font-family: 'DM Sans';
@@ -273,6 +273,7 @@ header{
 .best1{
     display: flex;
 }
+
 .best1 p{
     Width: 139px;
     height: 21px;
@@ -283,10 +284,11 @@ header{
     Letter-spacing: 0.3px;
     color: #90A3B4;
     margin-left: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
+
 .best1 img{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .btn4 button{
@@ -301,14 +303,19 @@ header{
     border-color: transparent;
     color: #00A8DB;
     cursor: pointer;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     margin-left: -0.5rem;
 }
 
 .macbookk img{
-    margin-top: 2rem;
-    margin-left: 1rem;
+    margin-top: 0.8rem;
+    margin-left: 4rem;
 }
+
+.macbookk>img{
+   width: 85%;
+}
+
 
 .section5{
     background: #EFFBFF;
@@ -356,7 +363,6 @@ header{
     Font-style: Bold;
     Font-size: 20px;
     Line-height: 32px;
-    Line-height: 123%;
     Letter-spacing: 0.2px;
     color: #034D82;
     margin-top: 1.2rem;
@@ -367,7 +373,6 @@ header{
     Font-style: Regular;
     Font-size: 15px;
     Line-height: 24px;
-    Line-height: 123%;
     Letter-spacing: 0.8px;
     color: #8EA9C1;
     margin-top: 1.4rem;
@@ -377,7 +382,7 @@ header{
     width: 280px;
     height: 310px;
     background: #EFFBFF;
-     border: 1px solid #DEDEDE;
+    border: 1px solid #DEDEDE;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
     transform: scale(1.1);
@@ -395,6 +400,7 @@ header{
     justify-content: space-evenly;
     margin-top: 7rem;
     margin-bottom: 7rem;
+    width: 95%;
 }
 
 .power h2{
@@ -533,6 +539,11 @@ header{
     margin-top: 5rem;
 }
 
+.sectn img{
+   margin-left: 6.5rem;
+   margin-top: 0.5rem;
+}
+
 .prop{
     display: flex;
     padding-top: 2rem;
@@ -637,5 +648,130 @@ header{
 }
 
 @media screen and (max-width: 1024px){
+    .text h2{
+    font-size: 50px;
+    line-height: 55px;
+    }
+
+    .text>img{
+        width: 20%;
+        padding-bottom: 4rem;
+    }
+
+    .text p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        height: 70px;
+        width: 60%;
+        margin-top: -4rem;
+        }
+
+        .btn1 {
+            width: 150px;
+            height: 50px;
+            }
+
+            .btn2 {
+                font-size: 16px;
+                margin-left: -0.1rem;
+         }
+
+         .text {
+            padding-top: 10rem;
+        }
+
+        .tom>img{
+            width: 240%;
+            margin-top: 6rem;
+            margin-left: -19rem;
+        }
+        .sec2{
+            width: 80%;
+            padding-left: 4.5rem;
+        }
+
+        .curv>img{
+           width: 130%;
+        }
+
+        .pho>img{
+            width: 400%;
+            margin-left: -20rem;
+        }
+
+        .imp h2{
+            width: 340px;
+            height: 90px;
+            font-size: 34px;
+            line-height: 45px;
+            margin-top: 6rem;
+        }  
+
+        .imp p{
+            Font-size: 15px;
+            Line-height: 26px;
+        }
+        
+        .sch h2{
+            Font-size: 35px;
+            Line-height: 50px;
+        }
+
+        .sch p{
+            Font-size: 13px;
+            Line-height: 24px;
+        }
+
+        .best1 p{
+            Font-size: 13px;
+        }
+
+        .best1>img{
+            width: 12px;
+        }
+
+        .btn4 button{
+            width: 240px;
+            height: 21px;
+            font-size: 15px;
+            line-height: 21px;
+            margin-left: -1.5rem;
+        }
+
+        .macbookk>img{
+         margin-top: 2rem;
+          width: 160%;
+          margin-left: -10rem;
+        } 
+        
+        .Track2{
+            border: 1px solid #DEDEDE;
+            border-radius: 10px;
+            width: 220px;
+            height: 300px;
+            
+        }
+
+    
+        .Track2 h4{
+            Font-size: 15px;
+            Line-height: 28px;
+            margin-top: 0.5rem;
+        }
+
+        .Track2 p{
+            Font-size: 13px;
+            Line-height: 20px;
+            margin-top: 1rem;
+        }
+
+
+        .power h2{
+            width: 436px;
+            height: 140px;
+            Font-size: 34px;
+            Line-height: 45px;
+        }
 
 }
