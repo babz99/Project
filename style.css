@@ -369,6 +369,8 @@ header{
 }
 
 .Track2 p{
+    width: 198px;
+    height: 72px;
     Font-family: 'DM Sans';
     Font-style: Regular;
     Font-size: 15px;
@@ -450,7 +452,7 @@ header{
     color: #00A8DB;
     cursor: pointer;
     margin-top: 3rem;
-    margin-left: -2rem;
+    /* margin-left: -1rem; */
 }
 
 .da1 h4{
@@ -474,14 +476,14 @@ header{
     Line-height: 28px;
     color: #90A3B4;
     margin-left: 2rem;
-    margin-right: 10rem;
+    margin-right: 5rem;
 }
 
 .dam2{
     display: flex;
     justify-content: space-evenly;
     margin-top: 2rem;
-    padding-left: 5rem;
+    padding-left: 3rem;
 }
 
 .dam{
@@ -588,6 +590,7 @@ header{
     margin-top: 2rem; 
     margin-bottom: 3rem;
 }
+
 .eya{
     margin-top: 4rem;
 }
@@ -606,6 +609,7 @@ header{
     Font-family: 'DM Sans';
     Font-style: Bold;
     Font-size: 18px;
+    font-weight: 700px;
     Line-height: 23px;
     color: #D3D6D8;
 }
@@ -634,6 +638,7 @@ header{
 .harrt p{
     Font-family: 'DM Sans';
     Font-style: Bold;
+    font-weight: 700;
     Font-size: 16px;
     Line-height: 21px;
     color: #D3D6D8;
@@ -741,8 +746,8 @@ header{
 
         .macbookk>img{
          margin-top: 2rem;
-          width: 160%;
-          margin-left: -10rem;
+          width: 150%;
+          margin-left: -8rem;
         } 
         
         .Track2{
@@ -758,20 +763,110 @@ header{
             Font-size: 15px;
             Line-height: 28px;
             margin-top: 0.5rem;
+            margin-left: -1.2rem;
         }
 
         .Track2 p{
+            width: 180px;
             Font-size: 13px;
             Line-height: 20px;
             margin-top: 1rem;
+            margin-left: -1.3rem;
+        }
+
+        .Track2>img{
+            margin-left: -1.2rem;
         }
 
 
         .power h2{
-            width: 436px;
+            width: 380px;
             height: 140px;
-            Font-size: 34px;
+            Font-size: 30px;
             Line-height: 45px;
+            margin-left: 3rem;
         }
 
-}
+        .power p{
+            width: 450px;
+            Font-size: 13px;
+            margin-left: 3rem;
+        }
+
+        .jaq p{
+            width: 380px;
+            height: 96px;
+            Font-size: 14px;
+            Line-height: 28px;
+            padding-right: -2rem;
+        }
+
+        .section6{
+            width: 100%;
+        }
+
+        .da1 h4{
+            width: 130px;
+            height: 20px;
+            Font-size: 19px;
+            margin-top: 0.2rem;
+            margin-left: 2rem;
+        }
+
+        .da1 span{
+            width: 250px;
+            height: 24px;
+            Font-size: 14px;
+            Line-height: 22px;
+            /* margin-left: -0.05rem; */
+            margin-right: 0.5rem;
+        }
+       
+       .jaq{
+        width: 50%;
+        margin-right: 5rem;
+       }
+
+       .dam2{
+        padding-left: 2rem;
+    }
+
+    .power{
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+
+    .eya>img{
+        width: 30%;
+    }
+    
+    .eya p{
+        width: 220px;
+        height: 50px;
+        Font-size: 14px;
+    }
+
+    .eya1>img{
+        width: 15%;
+    }
+
+    .you h3{
+        Font-size: 16px;
+        Line-height: 20px;
+    }
+
+    .you p{
+        Font-size: 14px;
+        Line-height: 18px;
+        padding-right: 4rem;
+    }
+
+    .harrt p{
+        Font-size: 15px;
+    }
+
+    .harrt img{
+        padding-left: 30rem;
+    }
+    }
