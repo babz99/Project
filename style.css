@@ -218,7 +218,6 @@ header{
     Font-style: Regular;
     Font-size: 16px;
     Line-height: 32px;
-    line-height: 154%;
     vertical-align: Top;
     Letter-spacing: 0.3px;
     color: #90A3B4;
@@ -436,11 +435,16 @@ header{
     Font-size: 16px;
     Line-height: 32px;
     color: #90A3B4;
-    margin-left: 7rem;
+    margin-left: 5rem;
 }
 
-.jaq img{
+.la{
+    display: flex;
+}
+
+.lad1 img{
     margin-left: 2rem;
+    margin-top: 1rem;
 }
 
 .dam1 button{
@@ -632,7 +636,7 @@ header{
 .secttt{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .harrt p{
@@ -870,3 +874,431 @@ header{
         padding-left: 30rem;
     }
     }
+
+    @media screen and (max-width: 768px){
+        .logo>img{
+            width: 80%;
+        }
+
+        .navy li{
+            font-size: 12px;
+            padding-right: 1rem;
+        }
+
+        .field button{
+            width: 80px;
+            height: 40px;
+            border-radius: 5px;
+            font-size: 13px;
+            margin-top: 0.5rem;
+        }
+
+        .text h2 {
+            height: 208px;
+            width: 670px;
+            font-size: 28px;
+            line-height: 35px;
+            margin-top: 3rem;
+        }
+
+        .text>img{
+            width: 11%;
+            padding-bottom: 11rem;
+        }   
+
+        .text p{
+            font-weight: 700;
+            font-size: 8px;
+            line-height: 23px;
+            height: 55px;
+            width: 30%;
+            margin-top: -11rem;
+            }
+
+            .btn1 {
+                width: 90px;
+                height: 33px;
+                font-weight: 500;
+                font-size: 8px;
+                line-height: 21px;
+                }
+    
+                .btn2 {
+                    font-size: 9px;
+                    margin-left: -2.5rem;
+             }
+
+             .text {
+                padding-top: 15rem;
+            }
+    
+            .tom>img{
+                width: 600px;
+                margin-top: 6rem;
+                margin-left: -27.8rem;
+                padding-top: 7rem;
+            }
+
+            .sec2>img{
+                width: 20%;
+                padding-right: 2rem;
+                text-align: auto;
+
+            }
+
+           
+            .curv>img{
+                width: 450%;
+                /* margin-right: 5.5rem; */
+             }
+     
+             .pho>img{
+                 width: 550%;
+                 margin-left: -4rem;
+                 margin-top: 3rem;
+             }
+
+             .imp h2{
+                width: 220px;
+                height: 85px;
+                font-size: 20px;
+                line-height: 30px;
+                margin-top: 7rem;
+                margin-left: 14rem;
+            }  
+    
+            .imp p{
+                Width: 250px;
+                height: 85px;
+                Font-size: 8px;
+                Line-height: 18px;
+                margin-left: 14rem;
+                margin-top: -1rem;
+            }
+
+            .btn3 button{
+                width: 120px;
+                height: 21px;
+                font-style: bold;
+                font-size: 9px;
+                line-height: 21px;
+                margin-left: 12.8rem;
+                margin-top: -2rem;
+            }
+
+            .section3{
+                margin-top: 6rem;
+                margin-bottom: 10rem;
+            }
+
+            /* .section4{
+                width: 80%;    
+            } */
+
+            .sch h2{
+                width: 250px;
+                height: 55px;
+                Font-size: 22px;
+                Line-height: 35px;
+            }
+            
+            .sch p{
+                width: 420px;
+                height: 50px;
+                Font-size: 9px;
+                Line-height: 25px;
+                Letter-spacing: 0.3px;
+                margin-top: 1rem;
+            }
+            
+            .best1 p{
+                Width: 100px;
+                height: 15px;
+                Font-size: 10px;
+                Line-height: 12px;
+                Letter-spacing: 0.3px;
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+            
+            .best1>img{
+                width: 10px;
+                margin-top: 1rem;
+                height: 12px;
+            }
+
+            .btn4 button{
+                width: 200px;
+                height: 10px;
+                font-size: 10px;
+                line-height: 2px;
+                margin-top: 1rem;
+                margin-left: -1.7rem;
+            }
+            
+            .macbookk img{
+                margin-top: 0.8rem;
+                margin-left: 4rem;
+            }
+            
+            .macbookk>img{
+                width: 190%;
+                margin-left: -10rem;
+                margin-top: 2rem;
+            }
+
+            .Track h2{
+                Font-size: 25px;
+                Line-height: 35px;
+                Letter-spacing: 0.3px;
+            }
+            
+            .Track p{
+                Font-size: 10px;
+                Line-height: 25px;
+                Letter-spacing: 0.3px;
+            }
+            
+            
+            .Track2{
+                border-radius: 8px;
+                width: 170px;
+                height: 220px;
+                padding: 40px;
+            }
+
+            .Track2>img{
+                margin-left: -1.2rem;
+                width: 35%;
+            }
+            
+            .Track2 h4{
+                Font-size: 10px;
+                Line-height: 20px;
+                Letter-spacing: 0.2px;
+                margin-top: 1rem;
+            }
+            
+            .Track2 p{
+                width: 140px;
+                height: 30px;
+                Font-size: 10px;
+                Line-height: 15px;
+                Letter-spacing: 0.9px;
+                margin-top: 1.2rem;
+                text-align: auto;
+            }
+            
+            .Track2:hover {
+                width: 280px;
+                height: 310px;
+                background: #EFFBFF;
+                border: 1px solid #DEDEDE;
+                box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+                border-radius: 10px;
+                transform: scale(1.1);
+                transition: 0.4s;
+                color: #DEDEDE;
+              }
+
+              .power h2{
+                width: 200px;
+                height: 110px;
+                Font-size: 16px;
+                Line-height: 35px;
+                Letter-spacing: 0.3px;
+            }
+            
+            .power p{
+                width: 200px;
+                height: 36px;
+                Font-size: 6px;
+                Line-height: 20px;
+                Letter-spacing: 0.3px;
+            
+            }
+            
+            
+            .jaq p{
+                width: 240px;
+                height: 40px;
+                Font-size: 10px;
+                Line-height: 24px;
+                color: #90A3B4;
+                margin-left: 4rem;
+            }
+
+
+            .la{
+                display: flex;
+            }
+            
+            .lad>img{
+                width: 20px;
+                margin-left: 2rem;
+                margin-right: -1rem;
+            }
+
+
+            .lad1>img{
+                width: 50px;
+                margin-right: 1rem;
+                margin-top: -1rem;
+            }
+        
+            
+            .dam1 button{
+                width: 20px;
+                height: 20px;
+                margin-top: 3rem;
+                margin-left: -1rem;
+            }
+            
+            .da1 h4{
+                width: 100px;
+                height: 15px;
+                Font-size: 15px;
+                Line-height: 20px;
+                margin-left: -1rem;
+                margin-top: 0.4rem;
+            }
+            
+            .da1 span{
+                width: 90px;
+                height: 20px;
+                Font-size: 7px;
+                Line-height: 28px;
+                margin-left: 2rem;
+                margin-right: 5rem;
+                margin-left: -1rem;
+            }
+            
+            .da>img{
+                width: 100%;
+                margin-top: 0.5rem;
+                margin-left: -1.5rem;
+            }
+
+            .dam2{
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 2rem;
+                padding-left: 3rem;
+            }
+            
+            .dam{
+                display: flex;
+                justify-content: space-evenly;
+            }
+            
+
+            
+            .dam1:hover button{
+                width: 20px;
+                height: 20px; 
+            }
+            
+
+            .dot>img{
+                padding-top: -2rem;
+                width: 5px;
+            }   
+            
+            .dot{
+                margin-top: -0.2rem;
+                /* margin-left: 0.1rem; */
+            }
+
+            .section7{
+                width: 75%;
+            }
+            
+            .oon{
+                margin-bottom: 4rem;
+            }
+            
+            .sectn h2{
+                width: 200px;
+                height: 100px;
+                Font-size: 20px;
+                Line-height: 35px;
+                padding-top: 3rem;
+            }
+            
+            .sectn p{
+                Font-size: 12px;
+                Line-height: 32px;
+                Letter-spacing: 0.3px;
+                margin-top: 0.5rem;
+            }
+            
+            .sectn>img{
+                width: 12%;
+               margin-left: 3.5rem;
+               margin-top: 1.2rem;
+            }
+            
+            .prop{
+                display: flex;
+                margin-top: -2rem;
+            }
+
+            .prop>img{
+                width: 80px;
+            }
+            
+            .prop p{
+                Font-size: 12px;
+                Line-height: 20px;
+                margin-left: 1rem;
+            }
+            
+            .bbt button{
+                width: 110px;
+                height: 40px;
+                font-size: 12px;
+                margin-top: 7rem;
+            }
+          
+            .eya>img{
+                width: 25%;
+            }
+            
+            .eya p{
+                width: 140px;
+                height: 40px;
+                Font-size: 10px;
+            } 
+            
+            .eya1>img{
+                width: 12%;
+            }
+        
+            .you h3{
+                Font-size: 14px;
+                Line-height: 20px;
+            }
+        
+            .you p{
+                Font-size: 10px;
+                Line-height: 14px;
+                padding-right: 3rem;
+            }
+
+            .harrt p{
+                Font-size: 10px;
+            }
+        
+            .harrt>img{
+                width: 52%;
+            }
+
+            .harrt img{
+                padding-left: 23rem;
+            }
+            .harrt{
+                padding-bottom: 2rem;
+             }
+}
+
+
